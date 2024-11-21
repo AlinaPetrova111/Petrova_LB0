@@ -25,7 +25,7 @@ namespace ООП
                 Console.WriteLine("\nЦелочисленный массив:\n");
                 for (int i = 0; i < n; i++)
                 {
-                    Arr1[i] = R.Next(1, 6);
+                    Arr1[i] = R.Next(1, 5);
                     Console.Write($"{Arr1[i]}\t");
                 }
 
