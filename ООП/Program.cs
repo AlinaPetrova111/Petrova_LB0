@@ -29,7 +29,7 @@ namespace ООП
                     Console.Write($"{Arr1[i]}\t");
                 }
 
-                Console.Write("\n\nСумма 1/(а[i-1] * a[i] * a[i-1]) = ");
+                Console.Write("\n\nСумма 1/(а[i+1] * a[i] * a[i-1]) = ");
 
                 // Создание рекурсивной функции
                 float Rec(int i)
