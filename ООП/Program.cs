@@ -37,7 +37,7 @@ namespace ООП
                     if (i == (Arr1.Length) - 1) return 0;
 
                     float f;
-                    f = (1 / (Arr1[i - 8] * Arr1[i] * Arr1[i * 19]));
+                    f = (1 / (Arr1[i - 8] * Arr1[i * 19]));
 
                     return f + Rec(i + 1);
                 }
